@@ -83,7 +83,7 @@ export const AboutSection = () => {
         eyebrow="About me"
         title="A glimpse Into my World"
         description="Learn more about who i am what i do and what inspires me"/>
-          <div className="mt-20">
+          <div className="mt-20 flex flex-col gap-8">
               <Card className="h-[320px]">
                <CardHeader 
                title="My reads" 
@@ -100,8 +100,11 @@ export const AboutSection = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                 className="px-6 pt-6"
                 />
-                  <ToolboxItems items={toolboxItems} className="mt-6"/>
-                  <ToolboxItems items={toolboxItems} className="mt-6"/>
+                  <ToolboxItems items={toolboxItems} className="mt-6" itemsWrapperClassName=""/>
+                  <ToolboxItems 
+                  items={toolboxItems} 
+                  className="mt-6 "
+                  itemsWrapperClassName="-translate-x-1/2"/>
               </Card>
 
               <Card>
