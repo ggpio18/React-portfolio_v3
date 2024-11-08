@@ -94,14 +94,14 @@ export const AboutSection = () => {
                 </div>
               </Card>
 
-              <Card className="h-[320px] p-10">
+              <Card className="h-[320px] p-0">
                 <CardHeader 
                 title="My Toolbox" 
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                 className="px-6 pt-6"
                 />
-                  <ToolboxItems items={toolboxItems}/>
-                  <ToolboxItems items={toolboxItems}/>
+                  <ToolboxItems items={toolboxItems} className="mt-6"/>
+                  <ToolboxItems items={toolboxItems} className="mt-6"/>
               </Card>
 
               <Card>
