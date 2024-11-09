@@ -109,7 +109,7 @@ export const AboutSection = () => {
 
               <Card>
                 <CardHeader 
-                title="Beyodn the Code" 
+                title="Beyond the Code" 
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                 />
 
