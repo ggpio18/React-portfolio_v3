@@ -45,31 +45,45 @@ const toolboxItems = [
 const hobbies = [
   {
     title: 'Gaming',
-    emoji: '😂'
+    emoji: '😂',
+    left: '50%',
+    top:'50%',
   },
   {
     title: 'Photography',
-    emoji: '🤞'
+    emoji: '🤞',
+    left: '',
+    top:'',
   },
   {
     title: 'Painting',
-    emoji: '🎂'
+    emoji: '🎂',
+    left: '',
+    top:'',
   },
   {
     title: 'Biking',
-    emoji: '🐱‍👤'
+    emoji: '🐱‍👤',
+    left: '',
+    top:'',
   },
   {
     title: 'Music',
-    emoji: '🐱‍🏍'
+    emoji: '🐱‍🏍',
+    left: '',
+    top:'',
   },
   {
     title: 'Reading',
-    emoji: '🎶'
+    emoji: '🎶',
+    left: '',
+    top:'',
   },
   {
     title: 'Code',
-    emoji: '🤣'
+    emoji: '🤣',
+    left: '',
+    top:'',
   },
 ];
 
@@ -107,16 +121,19 @@ export const AboutSection = () => {
                   itemsWrapperClassName="-translate-x-1/2"/>
               </Card>
 
-              <Card>
+              <Card className="h-[320px]">
                 <CardHeader 
                 title="Beyond the Code" 
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
                 />
 
-                    <div>
+                    <div className="relative">
                       {hobbies.map(hobby => (
-                        <div key={hobby.title}>
-                          <span>{hobby.title}</span>
+                        <div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute">
+                          <span className="font-medium
+                          text-gray-950">
+                            {hobby.title}
+                            </span>
                           <span>{hobby.emoji}</span>
                         </div>
                       ))}
