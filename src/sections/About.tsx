@@ -46,44 +46,44 @@ const hobbies = [
   {
     title: 'Gaming',
     emoji: '😂',
-    left: '50%',
-    top:'50%',
+    left: '5%',
+    top:'5%',
   },
   {
     title: 'Photography',
     emoji: '🤞',
-    left: '',
-    top:'',
+    left: '50%',
+    top:'5%',
   },
   {
     title: 'Painting',
     emoji: '🎂',
-    left: '',
-    top:'',
+    left: '10%',
+    top:'35%',
   },
   {
     title: 'Biking',
     emoji: '🐱‍👤',
-    left: '',
-    top:'',
+    left: '35%',
+    top:'40%',
   },
   {
     title: 'Music',
     emoji: '🐱‍🏍',
-    left: '',
-    top:'',
+    left: '70%',
+    top:'45%',
   },
   {
     title: 'Reading',
     emoji: '🎶',
-    left: '',
-    top:'',
+    left: '5%',
+    top:'65%',
   },
   {
     title: 'Code',
     emoji: '🤣',
-    left: '',
-    top:'',
+    left: '45%',
+    top:'70%',
   },
 ];
 
@@ -121,15 +121,20 @@ export const AboutSection = () => {
                   itemsWrapperClassName="-translate-x-1/2"/>
               </Card>
 
-              <Card className="h-[320px]">
+              <Card className="h-[320px] p-0 flex-col">
                 <CardHeader 
                 title="Beyond the Code" 
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                className="px-6 py-6"
                 />
 
-                    <div className="relative">
+                    <div className="relative flex-1">
                       {hobbies.map(hobby => (
-                        <div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute">
+                        <div key={hobby.title} className="inline-flex items-center gap-2 px-6 bg-gradient-to-r from-emerald-300 to-sky-400 rounded-full py-1.5 absolute"
+                        style={{
+                          left: hobby.left,
+                          top: hobby.top,
+                        }}>
                           <span className="font-medium
                           text-gray-950">
                             {hobby.title}
