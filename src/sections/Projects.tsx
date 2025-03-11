@@ -1,6 +1,7 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import tests from '@/assets/images/test.jpg'
 import Image from "next/image";
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
@@ -19,7 +20,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: tests,
   },
   {
     company: "Innovative Co",
@@ -31,7 +32,7 @@ const portfolioProjects = [
       { title: "Increased brand awareness by 15%" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    image: tests,
   },
   {
     company: "Quantum Dynamics",
@@ -43,7 +44,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    image: tests,
   },
 ];
 
