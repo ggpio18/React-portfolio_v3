@@ -104,7 +104,7 @@ export const AboutSection = () => {
               <Card className="h-[320px] col-span-2 lg:col-span-1">
                <CardHeader 
                title="My reads" 
-               description="Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               description="Explore the books shaping my perspective"
                />
                 <div className="w-40 mx-auto mt-2 md:mt-0">
                   <Image src={bookImage} alt="Book cover"/>
@@ -114,7 +114,7 @@ export const AboutSection = () => {
               <Card className="h-[320px]  col-span-3 lg:col-span-2">
                 <CardHeader 
                 title="My Toolbox" 
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                description="Explore the technologies and tools I use to craft exceptional digital experience"
                 className=""
                 />
                   <ToolboxItems items={toolboxItems} className="" itemsWrapperClassName="animate-move-left [animation-duration:30s]"/>
@@ -129,7 +129,7 @@ export const AboutSection = () => {
               <Card className=" h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
                 <CardHeader 
                 title="Beyond the Code" 
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                description="Explore my interest and hobbies beyond the digital realm"
                 className="px-6 py-6"
                 />
 
