@@ -2,6 +2,9 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 
 export const ContactSection = () => {
+  const handleClick = () => {
+    window.location.href = 'https://www.linkedin.com/in/piolo-c-aranza-1b5454193/';
+  };
   return ( 
   <div className='py-16 pt-14 lg:py-24 lg:pt-20'>
     <div className="container">
@@ -18,9 +21,11 @@ export const ContactSection = () => {
             <p className='text-sm mt-2 md:text-base'>Ready to bring your next project to life? Let's connect and discuss how I can help you achieve your goals</p>
           </div>
           <div>
-            <button className='text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900'>
+            <button  onClick={handleClick} className='text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900'>
+              <a href="https://www.linkedin.com/in/piolo-c-aranza-1b5454193/"></a>
               <span className='font-semibold'>Contact Me</span>
               <ArrowUpRightIcon className="size-4"/>
+              
             </button>
           </div>
         </div>

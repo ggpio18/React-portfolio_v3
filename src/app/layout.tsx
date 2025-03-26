@@ -11,8 +11,12 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Pio Aranza Portfolio",
   description: "Created with the help of Frontend Tribe",
+  icons: {
+    icon: "/memoji-computer.png", // For a standard favicon
+    apple: "/apple-touch-icon.png", // For iOS home screen (optional)
+  },
 };
 
 export default function RootLayout({

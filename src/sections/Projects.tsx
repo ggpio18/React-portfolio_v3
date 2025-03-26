@@ -8,43 +8,47 @@ import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import grainImage from '@/assets/images/grain.jpg';
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
+import proj1 from '@/assets/projects/AR_project.png';
+import proj2 from '@/assets/projects/game_proj.png';
+import proj3 from '@/assets/projects/sign_language_proj.png';
+import proj4 from '@/assets/projects/ecommerce_proj.jpg';
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: tests,
-  },
-  {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
-    results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
-    ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: tests,
-  },
-  {
-    company: "Quantum Dynamics",
+    company: "Dolores Tourism",
     year: "2023",
-    title: "AI Startup Landing Page",
+    title: "Informative Tourism Website with the use of AR",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Enhanced user experience" },
+      { title: "Improved Tourism " },
+      { title: "Increased mobile traffic" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: tests,
+    link: "#",
+    image: proj1,
+  },
+  {
+    company: "Project Game STI Collge",
+    year: "2023",
+    title: "The Explorer Game Unity",
+    results: [
+      { title: "Enhanced 3D Learning Experiences" },
+      { title: " Interactive Exploration for Deeper Understanding" },
+      { title: "Boost Creativity & Problem-Solving Skills" },
+    ],
+    link: "#",
+    image: proj2,
+  },
+  {
+    company: "GreenPlanet",
+    year: "2019",
+    title: "GreenPlanet Ecomerce Website Wordpress",
+    results: [
+      { title: "Effortless Navigation for Easy Product Discovery" },
+      { title: "Optimized for a Flawless Mobile Shopping Experience" },
+      { title: "Fast, Responsive, and User-Friendly Design" },
+    ],
+    link: "#",
+    image: proj4,
   },
 ];
 

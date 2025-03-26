@@ -7,6 +7,8 @@ import { HeroOrbit } from '@/components/HeroOrbit';
 import SparkleIcon from '@/assets/icons/sparkle.svg';
 
 export const HeroSection = () => {
+ 
+  
   return ( 
   <div className='py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip'>
     <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
@@ -66,7 +68,7 @@ export const HeroSection = () => {
   </div>
 
     {/* ring design */}
-    <div className="container">
+    <div className="container cursor-pointer relative z-20">
       <div className='flex flex-col items-center'>
         <Image src={memojiImage} 
         className='size-[100px]'
@@ -80,20 +82,25 @@ export const HeroSection = () => {
           </div>
       </div>
       <div className='max-w-lg mx-auto'>
-          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building expetional user exepreinceis</h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">2
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat corporis odit ad consectetur, debitis culpa excepturi?
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Building Exceptional User Expriences</h1>
+          <p className="mt-4 text-center text-white/60 md:text-lg">I specialized in creating UI/UX experience transforming design into functional, high-performing web application with creative mindset. Let's discuss your next project
           </p>
       </div>
           <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
             <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
+            <a href="#projects" className='inline-flex items-center gap-2'>
               <span className='font-semibold'>Explore my work here</span>
               <ArrowDown className="size-4"/>
+            </a>
             </button>
 
-            <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
+            <button  className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl '>
+              <a href="/public/resume/Piolo_C_Aranza_Resumev3.pdf"
+              download="Piolo_C_Aranza_Resumev3.pdf"
+              >
               <span>👋</span>
-              <span className='font-semibold'>Lets Connect</span>
+              <span className='font-semibold'>Download Resume</span>
+              </a>
             </button>
           </div>
     </div>

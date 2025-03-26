@@ -11,6 +11,7 @@ import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
 import Loader from "@/components/Loader"; // Adjust the import path if necessary
 
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +36,7 @@ export default function Home() {
           <HeroSection />
           <ProjectsSection />
           <TapeSection />
-          <TestimonialsSection />
+          {/* <TestimonialsSection /> */}
           <AboutSection />
           <ContactSection />
           <Footer />
