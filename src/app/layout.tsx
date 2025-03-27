@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Pio Aranza Portfolio",
   description: "Created with the help of Frontend Tribe",
   icons: {
-    icon: "/memoji-computer.png", // For a standard favicon
+    icon: "/memoji-computerv2.ico", // For a standard favicon
     apple: "/apple-touch-icon.png", // For iOS home screen (optional)
   },
 };
