@@ -27,6 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="KyK2RVE6RqiDMoozA3xRpcNPJdPv_la-GDDxXYY5I9o" />
       <body className={twMerge(
       inter.variable, 
       calistoga.variable, 
