@@ -9,7 +9,7 @@ import CSSIcon from '@/assets/icons/square-js.svg';
 import ReactIcon from '@/assets/icons/react.svg';
 import ChromeIcon from '@/assets/icons/chrome.svg';
 import GithubIcon from '@/assets/icons/github.svg';
-import mapImage3 from "@/assets/images/maps3v2.png"
+import mapImage3 from "@/assets/images/maps3v2.webp"
 import smileMemoji from '@/assets/images/memoji-smile.png';
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -164,7 +164,7 @@ export const AboutSection = () => {
                 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
                   <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
-                  <Image src={smileMemoji} alt="smilling memoji" className="size-20"/>
+                  <Image src={smileMemoji} alt="smilling memoji" className="size-20" loading="lazy"/>
                 </div>
               </Card>
             </div>

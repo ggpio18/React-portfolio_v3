@@ -3,9 +3,9 @@ import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import proj1 from '@/assets/projects/AR_project.png';
-import proj2 from '@/assets/projects/game_proj.png';
-import proj4 from '@/assets/projects/ecommerce_proj.jpg';
+import proj1 from '@/assets/projects/ar_projectnobgv22.webp';
+import proj2 from '@/assets/projects/game_proj_v1.webp';
+import proj4 from '@/assets/projects/GREENPLANET.webp';
 
 const portfolioProjects = [
   {
