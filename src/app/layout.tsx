@@ -12,8 +12,8 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Pio Aranza Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Pio Aranza - Web Developer & UI/UX Designer",
+    description: "Explore the work of Pio Aranza, featuring innovative web projects and creative designs.",
   icons: {
     icon: "/memoji-computerv2.ico", // For a standard favicon
     apple: "/apple-touch-icon.png", // For iOS home screen (optional)
