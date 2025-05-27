@@ -134,18 +134,18 @@ const portfolioProjects = [
     link: "https://van-funnel-landing-page.vercel.app/",
     image: proj11,
   },
-   {
-    company: "Redesign Web_Event",
-    year: "2024",
-    title: "Meralco Website Redesign",
-    results: [
-      { id: 1, title: "Redesigned using HTML and CSS" },
-      { id: 2, title: "Modern and user-friendly interface" },
-      { id: 3, title: "Improved layout and readability" },
-    ],
-    link: "https://van-meralco-redesigned.vercel.app/",
-    image: proj10,
-  },
+  //  {
+  //   company: "Redesign Web_Event",
+  //   year: "2024",
+  //   title: "Meralco Website Redesign",
+  //   results: [
+  //     { id: 1, title: "Redesigned using HTML and CSS" },
+  //     { id: 2, title: "Modern and user-friendly interface" },
+  //     { id: 3, title: "Improved layout and readability" },
+  //   ],
+  //   link: "https://van-meralco-redesigned.vercel.app/",
+  //   image: proj10,
+  // },
    {
     company: "Personal Project Templates",
     year: "2024",
