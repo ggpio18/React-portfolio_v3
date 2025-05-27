@@ -24,18 +24,7 @@ import trailer from '@/assets/images/ComingSoonv2.png'
 
 
 const portfolioProjects = [
-  {
-    company: "Personal Project Templates",
-    year: "2025",
-    title: "Password Manager",
-    results: [
-      { id: 1, title: "#" },
-      { id: 2, title: "#" },
-      { id: 3, title: "#" },
-    ],
-    link: "#",
-    image: trailer,
-  },
+  
   {
     company: "Personal Project Templates",
     year: "2025",
