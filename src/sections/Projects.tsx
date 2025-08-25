@@ -137,13 +137,13 @@ const portfolioProjects = [
    {
     company: "Redesign Web_Event",
     year: "2024",
-    title: "Meralco Website Redesign",
+    title: "<Electricity></Electricity> Website Redesign",
     results: [
       { id: 1, title: "Redesigned using HTML and CSS" },
       { id: 2, title: "Modern and user-friendly interface" },
       { id: 3, title: "Improved layout and readability" },
     ],
-    link: "https://van-meralco-redesigned.vercel.app/",
+    link: "https://van-electricity-web-redesigned.vercel.app/",
     image: proj10,
   },
    {
